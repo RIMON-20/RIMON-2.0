@@ -3,7 +3,7 @@ module.exports.config = {
   name: "attitude",
   version: "1.0.0",
   permission: 0,
-  credits: "𝙰𝚁𝚈𝙰𝙽",
+  credits: "𝚁𝙸𝙼𝙾𝙽",
   description: "Random attitude video",
   premium: false,
   prefix: true, 
@@ -21,7 +21,7 @@ module.exports.run = async({api,event,args,client,Users,Threads,__GLOBAL,Currenc
 const axios = global.nodemodule["axios"];
 const request = global.nodemodule["request"];
 const fs = global.nodemodule["fs-extra"];
-   var hi = ["𝙰𝚁𝚈𝙰𝙽 𝙲𝙷𝙾𝚆𝙳𝙷𝚄𝚁𝚈"];
+   var hi = [" 𝗥𝗜𝗠𝗢𝗡 𝗖𝗛𝗢𝗪𝗗𝗛𝗨𝗥𝗬 "];
   var know = hi[Math.floor(Math.random() * hi.length)];
   var link = [
 
