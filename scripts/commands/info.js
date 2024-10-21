@@ -28,14 +28,14 @@ var juswa = moment.tz("Asia/Dhaka").format("『D/MM/YYYY』 【hh:mm:ss】");
 
 var callback = () => api.sendMessage({body:`
 --------------------------------------------
-𝐍𝐚𝐦𝐞       : 𝐀𝐫𝐲𝐚𝐧 𝐂𝐡𝐨𝐰𝐝𝐡𝐮𝐫𝐲
-𝐑𝐞𝐥𝐢𝐠𝐢𝐨𝐧   : 𝐈𝐬𝐥𝐚𝐦
-𝐀𝐝𝐝𝐫𝐞𝐬𝐬: 𝐃𝐡𝐚𝐤𝐚.𝐆𝐚𝐳𝐢𝐩𝐮𝐫
-𝐆𝐞𝐧𝐝𝐞𝐫.   : 𝐌𝐚𝐥𝐞
-𝐑𝐞𝐥𝐚𝐭𝐢𝐨𝐧𝐬𝐡𝐢𝐩 : 𝐒𝐢𝐧𝐠𝐥𝐞
-𝐖𝐨𝐫𝐤        : 𝐒𝐭𝐮𝐝𝐞𝐧𝐭
-𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩: 𝐈𝐧𝐛𝐨𝐱
-𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐋𝐢𝐧𝐤 : https://www.facebook.com/ArYan.com.404`,attachment: fs.createReadStream(__dirname + "/cache/1.png")}, event.threadID, () => 
+𝐍𝐚𝐦𝐞       : 𝗥𝗶𝗺𝗼𝗻 𝗜𝘀𝗹𝗮𝗺
+𝐑𝐞𝐥𝐢𝐠𝐢𝐨𝐧   : 𝗜𝘀𝗹𝗮𝗺
+𝐀𝐝𝐝𝐫𝐞𝐬𝐬: 𝗗𝗶𝗻𝗮𝗷𝗽𝘂𝗿
+𝐆𝐞𝐧𝐝𝐞𝐫.   : 𝗠𝗮𝗹𝗲
+𝐑𝐞𝐥𝐚𝐭𝐢𝐨𝐧𝐬𝐡𝐢𝐩 : 𝗦𝗶𝗻𝗴𝗹𝗲
+𝐖𝐨𝐫𝐤        : 𝗦𝘁𝘂𝗱𝗲𝗻𝘁
+𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩: 01881391819
+𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐋𝐢𝐧𝐤 : https://www.facebook.com/profile.php?id=61552209843370`,attachment: fs.createReadStream(__dirname + "/cache/1.png")}, event.threadID, () => 
   fs.unlinkSync(__dirname + "/cache/1.png"));  
     return request(encodeURI(`https://graph.facebook.com/61565025325331/picture?height=720&width=720&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662`)).pipe(
 fs.createWriteStream(__dirname+'/cache/1.png')).on('close',() => callback());
