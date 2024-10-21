@@ -4,9 +4,9 @@ module.exports.config = {
     permssion: 0,
     premium: false,
     prefix: true,
-    credits: "𝙰𝚁𝚈𝙰𝙽",
+    credits: "𝚁𝙸𝙼𝙾𝙽",
     description: "mention partner",
-    category: "𝙰𝚁𝚈𝙰𝙽 𝙻𝙾𝚅𝙴 𝙿𝙽𝙶.𝙲𝙰𝚃𝙴𝙶𝙾𝚁𝚈 𝙰𝙽𝙳 𝙿𝙸𝙲𝙲𝙶𝙰𝚁",
+    category: "𝚁𝙸𝙼𝙾𝙽 𝙻𝙾𝚅𝙴 𝙿𝙽𝙶.𝙲𝙰𝚃𝙴𝙶𝙾𝚁𝚈 𝙰𝙽𝙳 𝙿𝙸𝙲𝙲𝙶𝙰𝚁",
     usages: `Please tag 1 person\n\nHow to use?\n${global.config.PREFIX}crush <@tag>\n\nExample:\n${global.config.PREFIX}crush @name\n`,
     cooldowns: 5,
     dependencies: {
@@ -73,7 +73,7 @@ module.exports.run = async function ({ event, api, args }) {
     else {
       let tag = event.mentions[mention].replace("@", "");
         var one = senderID, two = mention;
-        return makeImage({ one, two }).then(path => api.sendMessage({ body: "╭──────•◈•───────╮\n     𝐅𝐀𝐇𝐈𝐌 𝐂𝐇𝐎𝐖𝐃𝐇𝐔𝐑𝐘       \n _যে ফুলের স্পর্শে ক্ষত মুছে যায় সেই ফুল তুমি..!🌻🦋\n╰──────•◈•───────╯",
+        return makeImage({ one, two }).then(path => api.sendMessage({ body: "╭──────•◈•───────╮\n     𝐌𝐑 𝐑𝐈𝐌𝐎𝐍 𝐈𝐒𝐋𝐀𝐌       \n _যে ফুলের স্পর্শে ক্ষত মুছে যায় সেই ফুল তুমি..!🌻🦋\n╰──────•◈•───────╯",
             mentions: [{
           tag: tag,
           id: mention
