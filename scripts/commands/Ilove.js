@@ -3,7 +3,7 @@ module.exports.config = {
   name: "iloveu",
   version: "2.0.0",
   permission: 0,
-  credits: "nayan",
+  credits: "𝚁𝙸𝙼𝙾𝙽",
   description: "",
   prefix: false,
   category: "user",
