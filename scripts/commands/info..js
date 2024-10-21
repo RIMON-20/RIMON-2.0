@@ -2,7 +2,7 @@ module.exports.config = {
   name: "info",
   version: "1.0.0",
   permission: 0,
-  credits: "ArYan",
+  credits: "Rimon",
   prefix: true,
   description: "search results on google",
   category: "without prefix",
@@ -25,11 +25,11 @@ const time = process.uptime(),
     seconds = Math.floor(time % 60);
 const moment = require("moment-timezone");
 var juswa = moment.tz("Asia/Manila").format("『D/MM/YYYY』 【hh:mm:ss】");
-var link = ["https://i.imgur.com/vukvXxN.jpeg", 
+var link = ["https://i.imgur.com/8RYq2Tc.jpeg", 
 
-            "https://i.imgur.com/vukvXxN.jpeg", 
+            "https://i.imgur.com/y6MmbmI.mp4", 
 
-            "https://i.imgur.com/x7NlpQW.jpeg",
+            "https://i.imgur.com/Z94D2Yn.jpeg",
 
 "",
 
@@ -40,19 +40,19 @@ ________________________________________
 
 ❇️𝙱𝙾𝚃 𝙽𝙰𝙼𝙴 : ${global.config.BOTNAME}
 
-❇️𝙱𝙾𝚃 𝙰𝙳𝙼𝙸𝙽 :『 𝙰𝚁𝚈𝙰𝙽 𝙲𝙷𝙾𝚆𝙳𝙷𝚄𝚁𝚈 』
+❇️𝙱𝙾𝚃 𝙰𝙳𝙼𝙸𝙽 :『 𝗥𝗶𝗺𝗼𝗻 𝗖𝗵𝗼𝘄𝗱𝗵𝘂𝗿𝘆 』
 
-❇️𝙰𝙳𝙳𝚁𝙴𝚂𝚂 : 𝙳𝙷𝙰𝙺𝙰 𝙶𝙰𝚉𝙸𝙿𝚄𝚁
+❇️𝙰𝙳𝙳𝚁𝙴𝚂𝚂 : 𝗗𝗶𝗻𝗮𝗷𝗽𝘂𝗿,𝗦𝗼𝗱𝗼𝗿
 
 _____________𝙲𝙾𝙽𝚃𝙰𝙲𝚃_____________
 
-❇️𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 𝙸𝙳 : https://www.facebook.com/ArYan.com.404
+❇️𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 𝙸𝙳 : https://www.facebook.com/profile.php?id=61552209843370
 
-❇️𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝚔 𝙿𝙰𝙶𝙴: 𝙽𝙾 
+❇️𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝚔 𝙿𝙰𝙶𝙴: 𝗡𝗼 
 
 ❇️𝙱𝙾𝚃 𝙿𝚁𝙴𝙵𝙸𝚇 : ${global.config.PREFIX}
 
-❇️𝙱𝙾𝚃 𝙾𝚆𝙽𝙴𝚁 : 𝙰𝚁𝚈𝙰𝙽 
+❇️𝙱𝙾𝚃 𝙾𝚆𝙽𝙴𝚁 : 𝗥𝗜𝗠𝗢𝗡 
 
 𝙾𝚃𝙷𝙴𝚁 𝙸𝙽𝙵𝙾𝙼𝙰𝚃𝙸𝙾𝙽____________________
 
